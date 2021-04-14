@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{293A8396-DD08-4DA9-A158-94FA8FCCC119}</ProjectGuid>
+    <ProjectGuid>{621587CF-9BB1-45C5-8D53-2C445BA2827C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ChatServerApp</RootNamespace>
-    <AssemblyName>ChatServerApp</AssemblyName>
+    <RootNamespace>ClienteSocketApp</RootNamespace>
+    <AssemblyName>ClienteSocketApp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Comunicacion\ServerSocket.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
